@@ -9,17 +9,25 @@ import img1 from "../images/1.jpg";
 
 describe("scroll", () => {  
     const list = [
-        {
-          id: '1',
-          title: 'Oceans 8',
-          category: 'Comedy',
-          thumbnail: img1,
-          likes: 4,
-          dislikes: 1,
-          trailer: 'MFWF9dU5Zc0',
-          liked: false,
-          disliked: false,
-        }
+      {
+        "name": "Portátil - 90NX02M4-M00420 ASUS, 11,6 \", HD, Mediatek M8173C (4 núcleos, 1MB Caché, hasta 2.1 GHz, 64 bit), 4 GB, 32 GB, Intel UHD Graphics integrada, Android Azul",
+        "url": "https://www.mediamarkt.es/es/product/_porttil-90nx02m4-m00420-asus-116--mediate-95724012.html",
+        "imageurl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_98443836/fee_786_587_png",
+        "brand": "ASUS",
+        "specifications": [
+          {
+            "key": "Tamaño pantalla (cm/pulg):",
+            "value": "33.78 cm / 13.3"
+          },
+          {
+            "key": "Resolución",
+            "value": "2560 x 1600 píxeles"
+          }
+        ],
+        "deliveryTime": "1",
+        "price": "200.52",
+        "availability": "Disponible online"
+      }
     ];
 
     it("renders a Row", () => {

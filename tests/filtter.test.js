@@ -10,8 +10,8 @@ describe("DropDown", () => {
     it("check Component", async () => {
         const initializeState = async ({ set }) => {
             set(category, [
-                "Comedy",
-                "Animation"
+                "ASUS",
+                "ACER"
             ]
             );
         };
@@ -28,8 +28,8 @@ describe("DropDown", () => {
     it("check DropDown", async () => {
         const initializeState = async ({ set }) => {
             set(category, [
-                "Comedy",
-                "Animation"
+                "ASUS",
+                "ACER"
             ]
             );
         };

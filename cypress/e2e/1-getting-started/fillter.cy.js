@@ -7,7 +7,7 @@ describe('example to-do app', () => {
     })
   
     it('displays two todo items by default', () => {
-        const newItem = 'ce'
+        const newItem = 'po'
         cy.get('#dropdown-button').click()
         cy.get('#dropdown select option').should('be.visible')
         cy.get('#dropdown select').select(0)

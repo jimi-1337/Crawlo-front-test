@@ -14,7 +14,7 @@ describe("Search", () => {
         // check if adds properly
         const searchinput = screen.getByTestId("search-dropdown");
         const addButton = screen.getByTestId("button-dropdown");
-        fireEvent.change(searchinput, { target: { value: "ce" } });
+        fireEvent.change(searchinput, { target: { value: "asus" } });
         await act(() => {
                 addButton.click();
             }

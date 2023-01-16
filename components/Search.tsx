@@ -52,7 +52,7 @@ const Search = () => {
                 &&
                   <>
                     <div  id="dropdownsearch" data-testid="dropdownsearch"  className="z-10 bg-white divide-y divide-gray-100 rounded shadow w-48 dark:bg-transparent bg-transparent" style={{position: "absolute", margin: "2.5rem 0px 0px 0px", right: '2.6rem', height: '12rem', overflowY: 'scroll'}}>
-                      <ul className="py-1 text-sm text-gray-700 dark:text-gray-200 bg-transparent w-48">
+                      <ul className="py-1 text-sm text-gray-700 dark:text-gray-200 bg-black w-48">
                         {
                           selectedItemList.map((result, index) => {
                               return (
